@@ -9,7 +9,7 @@ start.addEventListener('click', function() {
     const green = Math.floor(Math.random() * 256)
     const blue = Math.floor(Math.random() * 256)
     document.querySelector('body').style.backgroundColor = `rgb(${red} , ${green}, ${blue})`
-    head.style.color = `rgb(${red / 2} , ${green / 2}, ${blue / 2})`
+    head.style.color = `rgb(${red / 3} , ${green / 3}, ${blue / 3})`
     start.style.backgroundColor = `rgb(${red / 2} , ${green / 2}, ${blue / 2})`
     stop.style.backgroundColor = `rgb(${red / 2} , ${green / 2}, ${blue / 2})`
   }, 350)
